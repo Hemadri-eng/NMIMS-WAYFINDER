@@ -1,0 +1,126 @@
+code,name,block,floor,type
+AG1,Pharmaceutics Lab 1,A,Ground,Lab
+AG2,PC2,A,Ground,Lab
+AG3,Machine Room,A,Ground,Machine Room
+AG4,Center of Excellence Mol Bio Gen Lab / Conference Room,A,Ground,Lab
+AG5,Class Room 001,A,Ground,Lecture Room
+AG6,Administration Office,A,Ground,Office
+AG7,PC3,A,Ground,Lab
+AG8,PC Analysis,A,Ground,Lab
+AG9,PC Chem Lab 1,A,Ground,Lab
+AG10,Dean Office,A,Ground,Office
+AF1,104,A,First,Lecture Room
+AF2,MPHARM PC,A,First,Lab
+AF3,MPHARM PC Assurance,A,First,Lab
+AF4,M PC Tech,A,First,Lab
+AF5,PC Chem 2,A,First,Lab
+AF6,Instrument Room,A,First,Lab
+AF7,102,A,First,Lecture Room
+AF8,101,A,First,Lecture Room
+AF9,Store Room,A,First,Store
+AF10,M Pharma Quality Ass 2,A,First,Lab
+AF11,Comp Lab,A,First,Lab
+AF12,103,A,First,Lecture Room
+AS1,Pharmacognosy 1,A,Second,Lab
+AS2,Pharmacognosy 2,A,Second,Lab
+AS3,Comp Lab 2,A,Second,Lab
+AS4,203,A,Second,Lecture Room
+AS5,MPHARM PC 2,A,Second,Lab
+AS6,201,A,Second,Lecture Room
+AS7,M Pharma PC Tech 2,A,Second,Lab
+AS8,Pharmacology 1,A,Second,Lab
+AS9,Pharmacology 2,A,Second,Lab
+BG1,Physics Lab,B,Ground,Lab
+BG2,BEEE Lab,B,Ground,Lab
+BG3,LR 5,B,Ground,Lecture Room
+BG4,LR 4,B,Ground,Lecture Room
+BG5,LR 3,B,Ground,Lecture Room
+BG6,LR 2,B,Ground,Lecture Room
+BG7,LR 1,B,Ground,Lecture Room
+BG8,NBA Hall,B,Ground,Hall
+BG9,Dean Office,B,Ground,Office
+BF1,Faculty Room,B,First,Faculty
+BF2,Faculty Room,B,First,Faculty
+BF3,Database Lab,B,First,Lab
+BF4,UAS NMIMS,B,First,Office
+BF5,Programming Lab 1,B,First,Lab
+BF6,LR 9,B,First,Lecture Room
+BF7,LR 8,B,First,Lecture Room
+BF8,LR 7,B,First,Lecture Room
+BF9,LR 6,B,First,Lecture Room
+BF10,CC1,B,First,Lab
+BF11,CC2,B,First,Lab
+BF12,Faculty Area,B,First,Faculty
+BF13,Academic Office,B,First,Office
+BS1,Faculty Room,B,Second,Faculty
+BS2,Faculty Room,B,Second,Faculty
+BS3,LR 10,B,Second,Lecture Room
+BS4,Language Lab,B,Second,Lab
+BS5,Programming Lab 2,B,Second,Lab
+BS6,Digital Signal Processing Lab,B,Second,Lab
+BS7,LR 11,B,Second,Lecture Room
+BS8,Faculty Room,B,Second,Faculty
+BS9,LR 12,B,Second,Lecture Room
+BS10,Project Lab 1,B,Second,Lab
+BS11,Advanced Programming Lab,B,Second,Lab
+BS12,Software Engineering Lab,B,Second,Lab
+BS13,Computer Networks Lab,B,Second,Lab
+BS14,Faculty Area,B,Second,Faculty
+BS15,Library,B,Second,Library
+CG1,HR Counselor Examination,C,Ground,Office
+CG2,Seminar Hall,C,Ground,Seminar Hall
+CG3,Theatre,C,Ground,Hall
+CG4,Placement Cell,C,Ground,Placement
+CG5,Director Conference Room,C,Ground,Conference Room
+CF1,Faculty Area,C,First,Faculty
+CF2,DLD Lab,C,First,Lab
+CF3,Drone Tech IoT Lab,C,First,Lab
+CF4,LR 17,C,First,Lecture Room
+CF5,LR 16,C,First,Lecture Room
+CF6,LR 15,C,First,Lecture Room
+CF7,LR 14,C,First,Lecture Room
+CF8,LR 13,C,First,Lecture Room
+CF9,Signal Processing Lab,C,First,Lab
+CF10,Faculty Area,C,First,Faculty
+CS1,Faculty Area,C,Second,Faculty
+CS2,EEW,C,Second,Lab
+CS3,ARVR Lab,C,Second,Lab
+CS4,LR 19,C,Second,Lecture Room
+CS5,CAD Lab,C,Second,Lab
+CS6,AIML Lab,C,Second,Lab
+CS7,Seminar Hall,C,Second,Seminar Hall
+CS8,LR 18,C,Second,Lecture Room
+CS9,PR2,C,Second,Lab
+CS10,ACN,C,Second,Lab
+CS11,System Software Lab,C,Second,Lab
+CS12,Faculty Area,C,Second,Faculty
+DG1,LR 21,D,Ground,Lecture Room
+DG2,LR 22,D,Ground,Lecture Room
+DG3,LR 23,D,Ground,Lecture Room
+DG4,LR 24,D,Ground,Lecture Room
+DG5,Art Room,D,Ground,Lab
+DG6,3D Printing Lab,D,Ground,Lab
+DF1,Faculty Area,D,First,Faculty
+DF2,Distributed Systems Lab,D,First,Lab
+DF3,Cyber Security Lab,D,First,Lab
+DF4,Big Data Analytics Lab,D,First,Lab
+DF5,High Performance Computing Lab,D,First,Lab
+DF6,Seminar Hall 2,D,First,Seminar Hall
+DF7,LR 27,D,First,Lecture Room
+DF8,LR 26,D,First,Lecture Room
+DF9,LR 25,D,First,Lecture Room
+DF10,Programming Lab 4,D,First,Lab
+DF11,Project Lab 4,D,First,Lab
+DS1,Faculty Area,D,Second,Faculty
+DS2,Programming Lab 3,D,Second,Lab
+DS3,Project Lab 3,D,Second,Lab
+DS4,Data Structure and Algorithm Lab,D,Second,Lab
+DS5,Simulation Lab,D,Second,Lab
+DS6,Board Room,D,Second,Conference Room
+DS7,Placement Department,D,Second,Placement
+DS8,Seminar Hall 3,D,Second,Seminar Hall
+DS9,LR 30,D,Second,Lecture Room
+DS10,LR 29,D,Second,Lecture Room
+DS11,LR 28,D,Second,Lecture Room
+DS12,Computational Research Lab,D,Second,Lab
+DS13,Computer Vision Lab,D,Second,Lab
