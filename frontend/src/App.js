@@ -18,7 +18,7 @@ function App() {
     if (!search.trim()) return;
 
     const response = await fetch(
-      `http://localhost:5000/search/${encodeURIComponent(search)}`
+      `https://nmims-wayfinder.onrender.com/search/${encodeURIComponent(search)}`
     );
 
     const data = await response.json();
@@ -45,7 +45,7 @@ function App() {
   const searchCategory = async (type) => {
 
     const response = await fetch(
-      "http://localhost:5000/locations"
+      "https://nmims-wayfinder.onrender.com/locations"
     );
 
     const data = await response.json();
@@ -68,7 +68,7 @@ function App() {
     if (!location) return;
 
     const response = await fetch(
-      `http://localhost:5000/navigate/${encodeURIComponent(location.name)}`
+      `https://nmims-wayfinder.onrender.com/navigate/${encodeURIComponent(location.name)}`
     );
 
     const data = await response.json();
@@ -206,6 +206,10 @@ function App() {
         </div>
 
       )}
+
+      <footer className="footer">
+        Hemadri Bhatnagar
+      </footer>
 
     </div>
 
