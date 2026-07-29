@@ -1,33 +1,33 @@
 code,name,block,floor,type
 AG1,Pharmaceutics Lab 1,A,Ground,Lab
-AG2,PC2,A,Ground,Lab
+AG2,Pharmaceutics Laboratory 2,A,Ground,Lab
 AG3,Machine Room,A,Ground,Machine Room
 AG4,Center of Excellence Mol Bio Gen Lab / Conference Room,A,Ground,Lab
 AG5,Class Room 001,A,Ground,Lecture Room
 AG6,Administration Office,A,Ground,Office
-AG7,PC3,A,Ground,Lab
-AG8,PC Analysis,A,Ground,Lab
-AG9,PC Chem Lab 1,A,Ground,Lab
+AG7,Pharmaceutics Laboratory 3,A,Ground,Lab
+AG8,Pharmaceutics Analysis Laboratory,A,Ground,Lab
+AG9,Pharmaceutics Chemistry Laboratory 1,A,Ground,Lab
 AG10,Dean Office,A,Ground,Office
 AF1,104,A,First,Lecture Room
-AF2,MPHARM PC,A,First,Lab
-AF3,MPHARM PC Assurance,A,First,Lab
-AF4,M PC Tech,A,First,Lab
-AF5,PC Chem 2,A,First,Lab
+AF2,M.Pharm Pharmaceutics Laboratory,A,First,Lab
+AF3,M.Pharm Pharmaceutics Quality Assurance Laboratory,A,First,Lab
+AF4,M.Pharm Pharmaceutics Technology Laboratory,A,First,Lab
+AF5,Pharmaceutics Chemistry Laboratory 2,A,First,Lab
 AF6,Instrument Room,A,First,Lab
 AF7,102,A,First,Lecture Room
 AF8,101,A,First,Lecture Room
 AF9,Store Room,A,First,Store
-AF10,M Pharma Quality Ass 2,A,First,Lab
-AF11,Comp Lab,A,First,Lab
+AF10,M.Pharm Quality Assurance Laboratory 2,A,First,Lab
+AF11,Computer Laboratory,A,First,Lab
 AF12,103,A,First,Lecture Room
 AS1,Pharmacognosy 1,A,Second,Lab
 AS2,Pharmacognosy 2,A,Second,Lab
-AS3,Comp Lab 2,A,Second,Lab
+AS3,Computer Laboratory 2,A,Second,Lab
 AS4,203,A,Second,Lecture Room
-AS5,MPHARM PC 2,A,Second,Lab
+AS5,M.Pharm Pharmaceutics Laboratory 2,A,Second,Lab
 AS6,201,A,Second,Lecture Room
-AS7,M Pharma PC Tech 2,A,Second,Lab
+AS7,M.Pharm Pharmaceutics Technology Laboratory 2,A,Second,Lab
 AS8,Pharmacology 1,A,Second,Lab
 AS9,Pharmacology 2,A,Second,Lab
 BG1,Physics Lab,B,Ground,Lab
@@ -124,3 +124,39 @@ DS10,LR 29,D,Second,Lecture Room
 DS11,LR 28,D,Second,Lecture Room
 DS12,Computational Research Lab,D,Second,Lab
 DS13,Computer Vision Lab,D,Second,Lab
+AEX1,Main Entrance,A,Ground,Entrance
+AEX2,Reception,A,Ground,Reception
+AEX3,Security Desk,A,Ground,Security
+AEX4,Help Desk,A,Ground,Help Desk
+AEX5,Lift A,A,Ground,Lift
+AEX6,Staircase A,A,Ground,Staircase
+AEX7,Drinking Water,A,Ground,Utility
+AEX8,Washroom (Male),A,Ground,Washroom
+AEX9,Washroom (Female),A,Ground,Washroom
+
+BEX1,Lift B,B,Ground,Lift
+BEX2,Staircase B,B,Ground,Staircase
+BEX3,Drinking Water,B,Ground,Utility
+BEX4,Washroom (Male),B,Ground,Washroom
+BEX5,Washroom (Female),B,Ground,Washroom
+BEX6,Student Help Desk,B,Ground,Help Desk
+
+CEX1,Lift C,C,Ground,Lift
+CEX2,Staircase C,C,Ground,Staircase
+CEX3,Drinking Water,C,Ground,Utility
+CEX4,Washroom (Male),C,Ground,Washroom
+CEX5,Washroom (Female),C,Ground,Washroom
+
+DEX1,Lift D,D,Ground,Lift
+DEX2,Staircase D,D,Ground,Staircase
+DEX3,Drinking Water,D,Ground,Utility
+DEX4,Washroom (Male),D,Ground,Washroom
+DEX5,Washroom (Female),D,Ground,Washroom
+
+CMN1,Central Courtyard,Campus,Ground,Open Area
+CMN2,Cafeteria,Campus,Ground,Canteen
+CMN3,Parking,Campus,Ground,Parking
+CMN4,Medical Room,Campus,Ground,Medical
+CMN5,ATM,Campus,Ground,Facility
+CMN6,Emergency Exit,Campus,Ground,Emergency
+CMN7,Visitor Waiting Area,Campus,Ground,Waiting Area

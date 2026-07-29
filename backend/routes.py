@@ -7,110 +7,221 @@ def create_aliases(name):
 
     name = name.lower().strip()
 
-    aliases = [name]
+    aliases = {name}
 
-    # -------------------------
+    numbers = ''.join(filter(str.isdigit, name))
+
+    # -----------------------------
     # Lecture Rooms
-    # -------------------------
-    if "lr" in name:
+    # -----------------------------
+    if "lr" in name or "lecture room" in name:
 
-        number = ''.join(
-            filter(str.isdigit, name)
-        )
+        if numbers:
 
-        if number:
-
-            aliases.extend([
-                f"lr{number}",
-                f"lr {number}",
-                f"lecture room {number}",
-                f"lecture room{number}",
-                f"classroom {number}",
-                f"class room {number}",
-                f"room {number}"
+            aliases.update([
+                f"lr{numbers}",
+                f"lr {numbers}",
+                f"lecture room {numbers}",
+                f"lecture room{numbers}",
+                f"classroom {numbers}",
+                f"class room {numbers}",
+                f"room {numbers}"
             ])
 
-
-    # -------------------------
+    # -----------------------------
     # Programming Labs
-    # -------------------------
+    # -----------------------------
     if "programming lab" in name:
 
-        number = ''.join(
-            filter(str.isdigit, name)
-        )
-
-        aliases.extend([
-            "pl" + number,
-            "pl " + number,
-            "programming laboratory " + number,
-            "prog lab " + number
+        aliases.update([
+            f"pl{numbers}",
+            f"pl {numbers}",
+            f"programming lab {numbers}",
+            f"programming laboratory {numbers}",
+            f"prog lab {numbers}"
         ])
 
-
-    # -------------------------
+    # -----------------------------
     # Project Labs
-    # -------------------------
+    # -----------------------------
     if "project lab" in name:
 
-        number = ''.join(
-            filter(str.isdigit, name)
-        )
-
-        aliases.extend([
-            "pr" + number,
-            "pr " + number,
-            "project laboratory " + number
+        aliases.update([
+            f"pr{numbers}",
+            f"pr {numbers}",
+            f"project lab {numbers}",
+            f"project laboratory {numbers}"
         ])
 
+    # -----------------------------
+    # Advanced Programming Lab
+    # -----------------------------
+    if "advanced programming" in name:
 
-    # -------------------------
-    # Pharmaceutics
-    # -------------------------
-    if (
-        "pharm" in name
-        or "pc" in name
-        or "pharma" in name
-    ):
+        aliases.update([
+            "apl",
+            "apl lab",
+            "advanced programming lab"
+        ])
 
-        aliases.extend([
-            "pc",
-            "pharm",
-            "pharma",
-            "pharmaceutics",
+    # -----------------------------
+    # Database Lab
+    # -----------------------------
+    if "database lab" in name:
+
+        aliases.update([
+            "db lab",
+            "database laboratory"
+        ])
+
+    # -----------------------------
+    # Software Engineering Lab
+    # -----------------------------
+    if "software engineering" in name:
+
+        aliases.update([
+            "se lab",
+            "software lab"
+        ])
+
+    # -----------------------------
+    # Computer Networks Lab
+    # -----------------------------
+    if "computer networks" in name:
+
+        aliases.update([
+            "cn lab",
+            "network lab"
+        ])
+
+    # -----------------------------
+    # Data Structures
+    # -----------------------------
+    if "data structure" in name:
+
+        aliases.update([
+            "dsa lab",
+            "dsa"
+        ])
+
+    # -----------------------------
+    # Cyber Security
+    # -----------------------------
+    if "cyber security" in name:
+
+        aliases.update([
+            "cs lab",
+            "cyber lab"
+        ])
+
+    # -----------------------------
+    # Artificial Intelligence
+    # -----------------------------
+    if "aiml" in name:
+
+        aliases.update([
+            "ai lab",
+            "ml lab",
+            "artificial intelligence lab"
+        ])
+
+    # -----------------------------
+    # ARVR
+    # -----------------------------
+    if "arvr" in name:
+
+        aliases.update([
+            "vr lab",
+            "ar lab"
+        ])
+
+    # -----------------------------
+    # Pharmacy
+    # -----------------------------
+    if "pharmaceutics" in name:
+
+        aliases.update([
+            "pc lab",
             "pharm lab",
             "pharma lab"
         ])
 
+    if "pc2" in name:
 
-    # -------------------------
+        aliases.update([
+            "pharmaceutical chemistry lab 2",
+            "pc lab 2"
+        ])
+
+    if "pc3" in name:
+
+        aliases.update([
+            "pharmaceutical chemistry lab 3",
+            "pc lab 3"
+        ])
+
+    if "pc analysis" in name:
+
+        aliases.update([
+            "pharmaceutical analysis",
+            "analysis lab"
+        ])
+
+    if "pc chem" in name:
+
+        aliases.update([
+            "pharmaceutical chemistry lab",
+            "chemistry lab"
+        ])
+
+    if "quality ass" in name:
+
+        aliases.update([
+            "quality assurance lab",
+            "qa lab"
+        ])
+
+    if "pc tech" in name:
+
+        aliases.update([
+            "pharmaceutics technology lab",
+            "technology lab"
+        ])
+
+    # -----------------------------
     # Faculty
-    # -------------------------
+    # -----------------------------
     if "faculty" in name:
 
-        aliases.extend([
+        aliases.update([
             "faculty",
-            "faculty area",
             "faculty room",
             "faculty cabin",
             "cabin"
         ])
 
+    # -----------------------------
+    # Office
+    # -----------------------------
+    if "office" in name:
 
-    # -------------------------
-    # Labs
-    # -------------------------
-    if "lab" in name:
-
-        aliases.extend([
-            "lab",
-            "laboratory"
+        aliases.update([
+            "admin office",
+            "administration",
+            "office"
         ])
 
+    # -----------------------------
+    # Lab
+    # -----------------------------
+    if "lab" in name:
 
-    return aliases
+        aliases.update([
+            "laboratory",
+            "lab"
+        ])
 
-
+    return list(aliases)
 
 
 def register_routes(app):

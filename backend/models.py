@@ -11,7 +11,8 @@ def create_tables():
         name TEXT NOT NULL,
         block TEXT NOT NULL,
         floor TEXT NOT NULL,
-        type TEXT NOT NULL
+        type TEXT NOT NULL,
+        aliases TEXT
     )
     """)
 
