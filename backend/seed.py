@@ -25,4 +25,4 @@ with open("locations.csv", "r", newline="", encoding="utf-8") as file:
 conn.commit()
 conn.close()
 
-print("✅ All locations imported successfully!")
+print(" All locations imported successfully!")
